@@ -1,5 +1,5 @@
 {% set name = "tad-mctc" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tad_mctc-{{ version }}.tar.gz
-  sha256: 54d5807ffa957d922f54cc91df331d9e581bd634e2848c4444cc3de24b97dde1
+  sha256: 4f46ba9b3976d2cd77092c68e9730fc256840a4a8e5e137384051658774687e0
 
 build:
   noarch: python
@@ -23,6 +23,7 @@ requirements:
     - python >=3.8
     - numpy
     - opt-einsum
+    - psutil
     - scipy
     - pytorch >=1.11
     - typing-extensions
