@@ -25,7 +25,7 @@ requirements:
     - opt-einsum
     - psutil
     - scipy
-    - pytorch >=1.11,<2.5
+    - pytorch >=1.11,<3
     - typing-extensions
 
 test:
