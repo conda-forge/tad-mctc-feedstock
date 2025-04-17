@@ -26,6 +26,7 @@ requirements:
     - opt-einsum
     - psutil
     - qcelemental
+    - packaging  # otherwise, `pip check` fails for qcelemental
     - pytorch >=1.11,<3
     - typing-extensions
 
