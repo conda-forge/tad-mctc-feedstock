@@ -25,7 +25,7 @@ requirements:
     - numpy <2
     - opt-einsum
     - psutil
-    - scipy
+    - qcelemental
     - pytorch >=1.11,<3
     - typing-extensions
 
