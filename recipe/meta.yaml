@@ -1,5 +1,5 @@
 {% set name = "tad-mctc" %}
-{% set version = "0.4.3" %}
+{% set version = "0.5.0" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tad_mctc-{{ version }}.tar.gz
-  sha256: a3885919b5478031918418d947ac39835412c24d0af00a48b534888fbac5d297
+  sha256: c98e5137e74fb11533e9dd135d706e7fcd1404d07a47213ad7c6f8a4e8629c41
 
 build:
   noarch: python
