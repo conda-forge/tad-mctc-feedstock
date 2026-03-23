@@ -1,5 +1,5 @@
 {% set name = "tad-mctc" %}
-{% set version = "0.6.2" %}
+{% set version = "0.7.0" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tad_mctc-{{ version }}.tar.gz
-  sha256: f9c8f64031268265e7b26be0a5781d37899caf68bd5083ac789f375dc9669976
+  sha256: 10297a7e262741d2b217ef684dac1893d30de1562a1f38f350d44f5b248cca3b
 
 build:
   noarch: python
@@ -25,7 +25,6 @@ requirements:
     - numpy <2
     - opt-einsum
     - psutil
-    - qcelemental
     - packaging  # otherwise, `pip check` fails for qcelemental
     - pytorch >=1.11,<3
     - typing-extensions
