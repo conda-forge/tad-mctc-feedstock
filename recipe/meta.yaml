@@ -23,9 +23,8 @@ requirements:
     - python >={{ python_min }}
     - numpy
     - opt-einsum
-    - psutil
     - packaging  # otherwise, `pip check` fails for qcelemental
-    - pytorch >=1.11,<3
+    - pytorch >=2.4,<3
     - typing-extensions
 
 test:
