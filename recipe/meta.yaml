@@ -24,7 +24,7 @@ requirements:
     - numpy
     - opt-einsum
     - packaging  # otherwise, `pip check` fails for qcelemental
-    - pytorch >=2.4,<3
+    - pytorch >=2.6,<3
     - typing-extensions
 
 test:
