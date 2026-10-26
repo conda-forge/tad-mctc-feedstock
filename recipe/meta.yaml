@@ -1,5 +1,5 @@
 {% set name = "tad-mctc" %}
-{% set version = "0.11.2" %}
+{% set version = "0.11.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/tad_mctc-{{ version }}.tar.gz
-  sha256: 312d92e209075d954fa7ed084f151bdb72906927c95dec4b4a7ce82e8513e927
+  sha256: aaa0f107b18ef97322e37893d40ece557c3cf2787549b7194d125cd3532cd08f
 
 build:
   noarch: python
